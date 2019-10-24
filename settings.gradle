@@ -1,0 +1,2 @@
+include ':app', ':markview'
+rootProject.name='MarkViewExample'

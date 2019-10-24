@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MarkView">
+        <attr name="mv_textSize" format="dimension" />
+        <attr name="mv_maxTextNum" format="integer" />
+        <attr name="mv_backgroundColor" format="color|reference" />
+        <attr name="mv_textColor" format="color|reference" />
+        <attr name="mv_text" format="string|reference" />
+        <attr name="mv_isAutoHeight" format="boolean" />
+    </declare-styleable>
+
+</resources>

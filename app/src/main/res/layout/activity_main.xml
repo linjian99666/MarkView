@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <com.github.markview.MarkView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        app:mv_backgroundColor="#0000ff"
+        app:mv_isAutoHeight="true"
+        app:mv_maxTextNum="4"
+        app:mv_text="降龙十八"
+        app:mv_textColor="#ffffff"
+        app:mv_textSize="14sp" />
+
+    <com.github.markview.MarkView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        app:mv_backgroundColor="#0000ff"
+        app:mv_isAutoHeight="false"
+        app:mv_maxTextNum="4"
+        app:mv_text="降龙十八掌"
+        app:mv_textColor="#ffffff"
+        app:mv_textSize="14sp" />
+
+    <com.github.markview.MarkView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:padding="10dp"
+        app:mv_backgroundColor="#0000ff"
+        app:mv_isAutoHeight="false"
+        app:mv_maxTextNum="4"
+        app:mv_text="降龙十八掌"
+        app:mv_textColor="#ffffff"
+        app:mv_textSize="14sp" />
+
+    <com.github.markview.MarkView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:padding="10dp"
+        app:mv_backgroundColor="#0000ff"
+        app:mv_isAutoHeight="false"
+        app:mv_maxTextNum="4"
+        app:mv_text="降龙十八"
+        app:mv_textColor="#ffffff"
+        app:mv_textSize="14sp" />
+
+</LinearLayout>
