@@ -8,6 +8,7 @@
         <attr name="mv_textColor" format="color|reference" />
         <attr name="mv_text" format="string|reference" />
         <attr name="mv_isAutoHeight" format="boolean" />
+        <attr name="mv_ratio" format="float" />
     </declare-styleable>
 
 </resources>

@@ -81,6 +81,7 @@ public class MarkView extends View {
      * 是否根据文字内容自适应高度
      */
     private boolean isAutoHeight;
+    private float ratio;
 
 
     public MarkView(Context context) {
@@ -112,6 +113,7 @@ public class MarkView extends View {
         textColor = a.getColor(R.styleable.MarkView_mv_textColor, DEFAULT_TEXT_COLOR);
         text = a.getString(R.styleable.MarkView_mv_text);
         isAutoHeight = a.getBoolean(R.styleable.MarkView_mv_isAutoHeight, true);
+        ratio = a.getFloat(R.styleable.MarkView_mv_ratio, DEFAULT_TRIANGLE_RATIO);
         a.recycle();
     }
 
@@ -159,7 +161,7 @@ public class MarkView extends View {
         int paddingRight = getPaddingRight();
         int minWidth = textSize + paddingLeft + paddingRight;
         int width = getMySize(widthMeasureSpec, minWidth);
-        triangleHeight = Math.round(width * DEFAULT_TRIANGLE_RATIO);
+        triangleHeight = Math.round(width * ratio);
         int minHeight;
         if (isAutoHeight && !TextUtils.isEmpty(text) && text.length() <= maxTextNum) {
             minHeight = text.length() * textHeight + getPaddingTop() + getPaddingBottom() + triangleHeight;
