@@ -33,4 +33,6 @@ allprojects {
 | mv_isAutoHeight      |   是否根据文字自适应高度 |  当你的文字内容<= 最多显示字数时,高度自适应,当你的文字内容>最多显示字数时,无效果.默认true |
 
 ###3.截图展示
-[![截图](sss "截图")](/screenshots/Screenshot_2019-10-25-09-22-56-150_com.test.markviewexample.png "截图")
+<div>
+<img src="/screenshots/Screenshot_2019-10-25-09-22-56-150_com.test.markviewexample.png" width="400px"</img> 
+</div>
