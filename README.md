@@ -1,8 +1,7 @@
-# MarkView
 [![](https://jitpack.io/v/linjian99666/MarkView.svg)](https://jitpack.io/#linjian99666/MarkView)
-    一个书签样式view,可以直接使用
-    只支持androidx,如果你还未支持androidx 建议你直接拷贝源码(MarkView.class + attrs),然后再根据你的实际需求修改使用.
-
+# MarkView
+一个书签样式view,可以直接使用
+只支持androidx,如果你还未支持androidx 建议你直接拷贝源码(MarkView.class + attrs),然后再根据你的实际需求修改使用.
 
 ## 截图展示
 <div>
