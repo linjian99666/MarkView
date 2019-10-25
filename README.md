@@ -1,5 +1,5 @@
 # MarkView
-书签样式view
+一个书签样式view,让你更方便更简洁,只有androidx版本,如果你还未支持androidx 建议你直接拷贝源码,然后再修改使用.
 
 ## 1.How to use(如何使用)
 
