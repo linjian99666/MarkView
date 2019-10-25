@@ -36,3 +36,20 @@ allprojects {
 <div>
 <img src="/screenshots/Screenshot_2019-10-25-09-22-56-150_com.test.markviewexample.png" width="400px"</img> 
 </div>
+
+## 4.use in xml
+```java
+ <com.github.markview.MarkView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:mv_backgroundColor="#0000ff"
+        app:mv_isAutoHeight="false"
+        app:mv_maxTextNum="4"
+        app:mv_text="降龙十八掌"
+        app:mv_textColor="#ffffff"
+        app:mv_textSize="14sp" />
+```
+
+## 5.Thanks 
+	your attention!!
