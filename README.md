@@ -1,7 +1,7 @@
 # MarkView
 书签样式view
 
-##1.How to use(如何使用)
+## 1.How to use(如何使用)
 
 ##### Step 1. Add the JitPack repository to your build file
 
@@ -21,7 +21,7 @@ allprojects {
 	}
 ```
 
-##2.Parameter interpretation(参数解释)
+## 2.Parameter interpretation(参数解释)
 
 |    参数     |   解释    |    备注   |
 | :-------- | :--------| :----- |
@@ -32,7 +32,7 @@ allprojects {
 | mv_text      |   文字内容 | 你要显示的书签内容,默认无  |
 | mv_isAutoHeight      |   是否根据文字自适应高度 |  当你的文字内容<= 最多显示字数时,高度自适应,当你的文字内容>最多显示字数时,无效果.默认true |
 
-###3.截图展示
+## 3.截图展示
 <div>
 <img src="/screenshots/Screenshot_2019-10-25-09-22-56-150_com.test.markviewexample.png" width="400px"</img> 
 </div>
